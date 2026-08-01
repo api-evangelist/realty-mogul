@@ -1,7 +1,23 @@
 aid: realty-mogul
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realty-mogul.png
 name: Realty Mogul
-description: Realty Mogul is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: RealtyMogul is a real estate crowdfunding and investment platform that gives individual
+  and institutional investors online access to commercial real estate opportunities, including private
+  placements, 1031 Exchange properties, and Real Estate Investment Trusts (REITs). The company performs
+  due diligence on sponsors, business plans, and properties, and provides members with a secure website
+  and online tools to evaluate and invest in professionally managed real estate. RealtyMogul publishes
+  no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/realty-mogul/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- Crowdfunding
+- Investing
+- REIT
+- Commercial Real Estate
+- FinTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +45,16 @@ maintainers:
 common:
 - type: Website
   url: https://realtymogul.com/
+- type: Support
+  url: https://www.realtymogul.com/contact-us
+- type: TermsOfService
+  url: https://www.realtymogul.com/legal-tos
+- type: PrivacyPolicy
+  url: https://www.realtymogul.com/legal-privacy-policy
+- type: DomainSecurity
+  url: security/realty-mogul-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
