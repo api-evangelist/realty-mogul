@@ -30,6 +30,9 @@ description: RealtyMogul is a real estate crowdfunding and investment platform t
   and online tools to evaluate and invest in professionally managed real estate. RealtyMogul publishes
   no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/realty-mogul/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "RealtyMogul publishes no public API or developer program."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
